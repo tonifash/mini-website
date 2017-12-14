@@ -1,0 +1,55 @@
+p {
+    border-right-style: dotted;
+    border-right-color: aquamarine;
+    background-color: cornflowerblue;
+    border-right-width: 8px;
+    border-radius: 7px;
+    padding: 0px 100px 100px 100px;
+    margin: 100px 100px 150px 80px;
+
+}
+
+a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+a:link {
+
+    padding: 0px;
+    background-color: #0add6f;
+    text-align: center;
+    border-bottom:  solid #555;
+
+}
+p.clearbg {
+
+    margin: 0px;
+    padding: 25px 50px 75px 100px;
+    outline-style: solid;
+    outline-color: red;
+}
+
+//Note this is an id tag which affects all div tags
+div {
+    width: 800px;
+    margin: 0px 100px;
+}
+
+
+div.clearbg {
+    width: 800px;
+    margin: 0px 100px;
+    background: aqua;
+}
+
+div.pad {
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+}
